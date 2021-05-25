@@ -97,9 +97,10 @@ class App extends Component {
 
     return (
       <div className="page">
+        <p style={{ visibility: "hidden" }}>{url}</p>
         <div className="interactions">
           {/* <img src={"https://i.imgur.com/kQ2lei6.png"} /> */}
-          <img className="bghackcrawler" src={"https://i.imgur.com/hWAuz1d.png"} />
+          <img className="bghackcrawler" src={"https://i.imgur.com/hWAuz1d.png"} alt="HACKCRAWLER" />
           <Search
             value={searchTerm}
             onChange={this.onSearchChange}
