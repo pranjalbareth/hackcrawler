@@ -1,4 +1,4 @@
-# HACKCRAWLER
+# 🕷 HACKCRAWLER
 
 Using [HackerNews API](https://news.ycombinator.com/)
 
