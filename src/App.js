@@ -20,10 +20,12 @@ const largeColumn = {
 
 const midColumn = {
   width: '30%',
+  textAlign: "center",
 };
 
 const smallColumn = {
   width: '10%',
+  textAlign: "end",
 };
 
 class App extends Component {
@@ -103,7 +105,6 @@ class App extends Component {
             onChange={this.onSearchChange}
             onSubmit={this.onSearchSubmit}
           >
-            Search
           </Search>
         </div>
         { result &&
@@ -123,14 +124,14 @@ class App extends Component {
 }
 
 const Search = ({ value, onChange, onSubmit, children }) =>
-  <form onSubmit={onSubmit}>
+  <form className="searchform" Submit={onSubmit}>
     {children} <input
       type="text"
       value={value}
       onChange={onChange}
     />
     <button type="submit">
-      {children}
+      Search
     </button>
   </form>
 
@@ -153,12 +154,13 @@ const Table = ({ list, onDismiss }) =>
             onClick={() => onDismiss(item.objectID)}
             className="button-inline"
           >
-            &#10060;
+            &#128078; downvote
                 </Button>
         </span>
       </div>
     )}
   </div>
+
 
 const Button = ({
   onClick,
@@ -170,7 +172,7 @@ const Button = ({
     className={className}
     type="button"
   >
-    {children}
+    &nbsp;&nbsp;&nbsp;{children}&nbsp;&nbsp;&nbsp;
   </button>
 
 export default App;

@@ -4,7 +4,7 @@
 
 .interactions {
   text-align: center;
-  height: 330px;
+  height: 360px;
 }
 
 .table {
@@ -68,6 +68,13 @@
   transition: all 0.6s ease;
 }
 
+.button-inline:hover {
+  color: #ff9999;
+  background: #232323;
+  font-size: 1.03em;
+  text-align: center;
+}
+
 .button-active {
   border-radius: 0;
   border-bottom: 1px solid #38bb6c;
@@ -75,7 +82,13 @@
 
 .bghackcrawler {
   width: 670px;
-  margin-top: 40px;
+  margin-top: 50px;
   left: 132px;
   position: absolute;
+}
+
+.searchform {
+  position: absolute;
+  right: 190px;
+  top: 220px;
 }
