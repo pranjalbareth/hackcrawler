@@ -1,6 +1,9 @@
-# 🕷 HACKCRAWLER
+<img src="https://i.imgur.com/hWAuz1d.png" width="1000"/>
 
-Using [HackerNews API](https://news.ycombinator.com/)
+
+
+
+# 🕷 HACKCRAWLER - Using [HackerNews API](https://news.ycombinator.com/)
 
 ### `npm start`
 
