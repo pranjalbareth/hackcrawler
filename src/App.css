@@ -1,0 +1,81 @@
+.page {
+  margin: 20px;
+}
+
+.interactions {
+  text-align: center;
+  height: 330px;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.table-header {
+  display: flex;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.table-empty {
+  margin: 200px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.table-row {
+  display: flex;
+  line-height: 24px;
+  white-space: nowrap;
+  margin: 10px 0;
+  padding: 10px;
+  background: #232323;
+  border: none;
+  border-radius: 6px;
+  /* -webkit-transition: 0.5s; */
+  transition: all 0.6s ease;
+}
+
+.table-row:hover {
+  cursor: context-menus;
+  margin: 10px -7px;
+}
+
+.table-header > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.table-row > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.button-inline {
+  border-width: 0;
+  background: transparent;
+  color: #ff9999;
+  text-align: inherit;
+  -webkit-font-smoothing: inherit;
+  padding: 0;
+  cursor: 1em;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.button-active {
+  border-radius: 0;
+  border-bottom: 1px solid #38bb6c;
+}
+
+.bghackcrawler {
+  width: 670px;
+  margin-top: 40px;
+  left: 132px;
+  position: absolute;
+}
