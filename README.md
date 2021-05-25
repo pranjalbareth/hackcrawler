@@ -2,7 +2,6 @@
 
 
 
-
 # 🕷 HACKCRAWLER - Using [HackerNews API](https://news.ycombinator.com/)
 
 ### `npm start`
